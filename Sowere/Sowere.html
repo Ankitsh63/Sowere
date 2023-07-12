@@ -1,0 +1,204 @@
+<html>
+    <head>
+        <link href="css/bootstrap.css" rel="stylesheet"/>
+        <script src="js/jquery-slim.min.js"></script>
+        <script src="js/popper.min.js"></script>
+        <script src="js/bootstrap.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.32/angular.min.js"></script>
+        <script src="https://code.angularjs.org/1.2.32/angular-route.min.js"></script>
+        <script src="Routing.js"></script>
+      
+         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+        </head>
+        <body ng-app="routingapp">
+
+            <!-- Nav Bar -->
+
+            <div class="container-fluid">
+                <div class="row" style="height: 100px; background-color: white">
+                <div class="col-sm-4">
+                <h1 style="margin-top: 30px; margin-left: 30px;color:black">Sowere</h1>
+                </div>
+                <div class="col-sm-8" style="margin-top: 30px">
+                <nav class="navbar navbar-expand-lg navbar-dark bg-info">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+               <div class="collapse navbar-collapse" id="navbarSupportedContent">
+               <ul class="navbar-nav mr-auto">
+               <li class="nav-item active">
+               <a class="nav-link" class="active" href="#/">HOME <span class="sr-only">(current)</span></a>
+               </li>
+               <li class="nav-item active">
+              <a class="nav-link" href="#">ABOUT</a>
+              </li>
+              <li class="nav-item active">
+              <a class="nav-link" href="#">OUR COURSES</a>
+              </li>
+              <li class="nav-item active">
+              <a class="nav-link" href="#">OUR SERVICES</a>
+              </li>
+              <li class="nav-item active">
+              <a class="nav-link" href="#">CONTACT US</a>
+              </li>
+             </ul>
+             </div>
+             </nav>
+             </div>
+             
+            </div>
+            <!-- Carousel slide-->
+            <div class="row">
+            <div class="col-sm-12">
+            <div class="carousel slide" data-ride="carousel" id="abc">
+            <ol class="carousel-indicators">
+           <li data-slide-to="0" data-target="#abc"></li>
+           <li data-slide-to="1" data-target="#abc"></li>
+           <li data-slide-to="2" data-target="#abc"></li>
+           </ol>
+           <div  class="carousel-inner">
+           <div class="carousel-item active">
+           <img src="php.png" class="img-fluid" style="height: 500px; width: 100%;"/>
+          </div>
+         <div class="carousel-item">
+         <img src="MERN.png" class="img-fluid" style="height: 500px; width: 100%;"/>
+         </div>
+         <div class="carousel-item">
+         <img src="dot-net.jpg" class="img-fluid" style="height: 500px; width: 100%;"/>
+         </div>
+         </div>
+         </div>
+         </div>
+         <a href="#abc" class="carousel-control-prev" data-slide="prev">
+         <span class="carousel-control-prev-icon"></span>
+         </a>
+         <a href="#abc" class="carousel-control-next" data-slide="next">
+         <span class="carousel-control-next-icon"></span>
+         </a>
+         </div>
+         </div>
+         
+         <!--About section-->
+
+          <div class="container-fluid">
+          <div class="row">
+          <div class="col-sm-12" style="background-color:lavender">
+          <h1 style="margin-left:500px;height:50px;margin-top: 10px">ABOUT SOWERE</h1>
+          </div>
+          </div>
+          </div>
+        <div class="container-fluid">
+        <div class="row" style="background-color: white; margin-top: 50px">
+        <div class="col-sm-8">
+
+        <p class="about_text" style="margin-left:50px;margin-top: 40px;margin-right:100px">
+        We are a community of passionate and crazy people "CREATORS", driven by a desire to create websites 
+        and web products that are invaluable, sustainable, innovative, and engaging.
+        We perfectly balance purpose with great designs.</p>
+        <p class="about_text" style="margin-left:50px;margin-top: 50px;margin-right:100px">
+        IT companies are responsible for making sure that operations are running the way they should.
+        They ensure that devices are working properly and that data is secure.
+        IT is also responsible for installing new software, hardware and providing technical support..</p>
+              
+        <div class="readmore_bt" style="margin-left:500px;margin-top: 50px"><a href="#">Read more</a></div>
+        </div>
+        <div class="col-sm-4">
+        <img src="Sowere.jpg">
+        </div>
+        </div>
+        </div>
+
+        <!--Our Courses-->
+
+        <div class="container-fluid">
+          <div class="row">
+          <div class="col-sm-12" style="background-color:lavender">
+          <h1 style="margin-left:500px;height:50px;margin-top: 10px">OUR COURSES</h1>
+          </div>
+          </div>
+          </div>
+          <div class="container-fluid" style="margin-top: 20px;">
+          <div class="row">
+          <div class="col-sm-4" b> <div class="card">
+          <img src="php.png" height="250px" class="card-img-top"/>
+          <div class="card-body">
+            <h3 class="card-title">Course :PHP Development</h3>
+           <h3 class="card-title">Course Price:20000/-</h3>
+           <p class="card-text">Duration:6 Months</p>
+
+          </div>
+          </div>
+          </div>
+          <div class="col-sm-4" b> <div class="card">
+          <img src="MERN.png" height="250px" class="card-img-top"/>
+          <div class="card-body">
+          <h3 class="card-title">Course :MERN Development</h3>
+          <h3 class="card-title">Course Price:30000/-</h3>
+          <p class="card-text">Duration:6 Months</p>
+          
+          </div>
+          </div>
+          </div>
+          <div class='col-sm-4'> <div class="card">
+          <img src="dot-net.jpg" height="250px" class="card-img-top"/>
+          <div class="card-body">
+          <h3 class="card-title">Course :Dot-net Development</h3>
+          <h3 class="card-title">Price:15000\-</h3>
+          <p class="card-text">Duration:6 Months</p>
+         
+         </div>
+         </div>
+         </div>
+        </div>
+        </div>
+
+         <!--Navigation section-->
+
+
+        <div class="footer_section layout_padding"  style="background-color:black;height: 300px">
+        <div class="container" style="background-color:black;">
+        <div class="row" >
+        <div class="col-sm-6 col-md-6 col-lg-3">
+        <div class="footer_logo"></div>
+        </div>
+        <div class="col-sm-6 col-md-6 col-lg-3">
+        <h4 class="footer_taital" style="margin-top:20px;color:white">NAVIGATION</h4>
+        <div class="footer_menu_main">
+        <div class="footer_menu_left">
+        <div class="footer_menu">
+        <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="donate.html">Courses</a></li>
+        <li><a href="contact.html">Contact us</a></li>
+        </ul>
+        </div>
+        </div>
+        <div class="footer_menu_right">
+        <div class="footer_menu">
+        <ul>
+        <li><a href="about.html">About</a></li>
+        <li><a href="news.html">News</a></li>
+        <li><a href="mission.html">Our Mission</a></li>
+        </ul>
+        </div>
+        </div>
+        </div>
+        </div>
+        <div class="col-sm-6 col-md-6 col-lg-3">
+        <h4 class="footer_taital" style="margin-top:20px;color:white" >Sowere</h4>
+        <p class="footer_text" style="color:white">Leading IT Company</p>
+        <p class="footer_text" style="color:white">Best training center</p>
+        <p class="footer_text" style="color:white">Experience Employee</p>
+        </div>
+        <div class="col-sm-6 col-md-6 col-lg-3">
+        <h4 class="footer_taital" style="margin-top:20px;color:white" >Address</h4>
+        <p class="footer_text" style="color:white">Ist Floor, Sahu Mansion, opposite metro pilar no 63, 
+          near Hero service center and muthoot finance, Gayatri Nagar, Sodala, Jaipur, Rajasthan 302006</p>
+        <p class="footer_text" style="color:white">+91 95882 95979</p>
+        <p class="footer_text" style="color:white">Sahilsomani31@gmail.com</p>
+        </div>
+        </div>
+        
+      </body>
+        </html>
